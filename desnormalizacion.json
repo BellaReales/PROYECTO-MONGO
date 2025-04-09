@@ -1,0 +1,70 @@
+[
+    {
+      "code": "001",
+      "firstName": "Sandra",
+      "lastName": "Sanchez",
+      "identificationNumber": "123456789",
+      "gender": "F",
+      "birthDate": "2002-10-10",
+      "email": "anexample@gmail.com",
+      "address": "AV 13 #60 sur",
+      "identificationType": {
+        "code": "CC",
+        "name": "cédula",
+        "description": "cédula de ciudadanía"
+      },
+      "city": {
+        "code": "COL",
+        "name": "Colombia"
+      },
+      "inscrptions" : {
+
+        "registrerDate" : "2020-11-03",
+        "mod" : "active",
+        "rates" : {
+            "rate": 4.5,
+            "comments" : "jaSHJADSH"
+        }
+
+      }
+
+    },
+
+    {
+        "firstName": "Carlos",
+        "lastName": "Pérez",
+        "identificationType": {
+          "code": "CC",
+          "name": "cédula",
+          "description": "cédula de ciudadanía"
+        },
+        "identificationNumber": "987654321",
+        "email": "cperez@example.com"
+      },
+
+    {
+        "classroomID" : {"$objectID" : "jahdjadh"},
+        "teachersID" : {"$objectID" : "jahdjadh"},
+        "courseID" : {"$objectID" : "jahdjadh"},
+        "course": {
+            "code": "MAT101",
+            "name": "Matemáticas Básicas",
+            "description": "Curso de fundamentos matemáticos"
+        },
+
+        "startTime": "08:00",
+        "endTime": "10:00",
+        "mod" : "active",
+
+        "classroom": {
+              "code": "A1",
+              "name": "Aula 1",
+              "intensity" : 15,
+              "weight" : 25,
+              "mod" : "active"
+            }
+    }
+
+    
+  ]
+  
